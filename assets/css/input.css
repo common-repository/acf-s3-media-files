@@ -1,0 +1,60 @@
+.acf-s3-upload, .acf-s3-delete {
+    cursor: pointer;
+}
+
+.acf-s3-file {
+    border: 1px solid #eee;
+    border-bottom: none;
+    background: #fff;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.acf-s3-file:last-child {
+    border-bottom: 1px solid #eee;
+}
+
+.acf-s3-file .progress {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background: #ECE6C9;
+    z-index: 0;
+    transition: width 0.8s linear;
+}
+
+.acf-s3-file .progress.done {
+    width: 100%;
+    background: rgb(226, 255, 220);
+}
+
+.acf-s3-file .content {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.acf-s3-file .name {
+    float: left;
+    width: 60%;
+}
+
+.acf-s3-file .actions {
+    text-align: right;
+    width: 40%;
+    float: right;
+}
+
+.acf-s3-file .actions a {
+    padding: 0px 5px;
+}
+
+.acf-s3-delete {
+    color: #aa0000;
+}
+.acf-s3-files {
+    margin-top: 20px;
+}

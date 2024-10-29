@@ -1,0 +1,24 @@
+{
+    "name": "codemenschen/acf-s3-content",
+    "authors": [
+        {
+            "name": "Codemenschen",
+            "email": "gdpr@codemenschen.at"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "aws/aws-sdk-php": "~3.0",
+        "symfony/polyfill-mbstring": "1.20.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Codemenschen\\AcfS3\\": "class/"
+        }
+    }
+}
